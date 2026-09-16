@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "OpenPMU_BBB_Cape_V2.3-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/OpenPMU_BBB_Cape_V2.3-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "OpenPMU Cape ZAE")(type "KiCad")(uri "${KIPRJMOD}/OpenPMU Cape ZAE.kicad_sym")(options "")(descr ""))
+)
