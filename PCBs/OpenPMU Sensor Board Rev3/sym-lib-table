@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "IL711-2E")(type "KiCad")(uri "${KIPRJMOD}/IL_711_2E/IL711-2E.kicad_sym")(options "")(descr ""))
+  (lib (name "CME0505S3C")(type "KiCad")(uri "${KIPRJMOD}/CME0505S3C.pretty/CME0505S3C.kicad_sym")(options "")(descr ""))
+  (lib (name "HCPL-2231-000E")(type "KiCad")(uri "${KIPRJMOD}/HCPL-2231-000E.pretty/HCPL-2231-000E.kicad_sym")(options "")(descr ""))
+  (lib (name "OpenPMU Sensor Board")(type "KiCad")(uri "${KIPRJMOD}/OpenPMU Sensor Board.kicad_sym")(options "")(descr ""))
+)

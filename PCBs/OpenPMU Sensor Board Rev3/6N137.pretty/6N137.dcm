@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 6N137
+D Vishay 6N137 DC Input Transistor Output Optocoupler, Surface Mount, 8-Pin DIP
+K
+F https://www.vishay.com/docs/84732/6n137.pdf
+$ENDCMP
+#
+#End Doc Library

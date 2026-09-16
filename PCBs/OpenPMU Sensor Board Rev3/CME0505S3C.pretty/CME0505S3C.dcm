@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CME0505S3C
+D Isolated Module DC DC Converter 1 Output 5V 150mA 4.5V - 5.5V Input
+K
+F https://www.murata.com/products/productdata/8807029342238/kdc-cme.pdf?1614569448000
+$ENDCMP
+#
+#End Doc Library

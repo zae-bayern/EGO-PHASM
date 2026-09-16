@@ -1,0 +1,427 @@
+(footprint "Fuseholder_Clip-5x20mm_Schurter_CQM_Inline_P20.60x5.00mm_D1.00mm_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Schurter CQM (0752), https://www.schurter.com/en/datasheet/typ_CQM.pdf")
+	(tags "fuse clip open")
+	(property "Reference" "REF**"
+		(at 10.3 -3.5 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f15b3c0d-bf2a-40b0-bd0c-f0e733757537")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse"
+		(at 10.3 3.5 180)
+		(layer "F.Fab")
+		(uuid "bc1c0b14-7a50-4990-8301-2ac3630703e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Schurter_CQM_Inline_P20.60x5.00mm_D1.00mm_Horizontal"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21f15a09-5907-4a7f-9e43-53529f7f8b9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5a0462a-40e6-4204-b175-9992e758278f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Fuse"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30f68f77-8361-4120-bab2-bb9cdd8d9bfb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.25 -2.55)
+		(end 0.25 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73aad134-22cf-4f99-bb30-bac411ef6b03")
+	)
+	(fp_line
+		(start 0.25 2.55)
+		(end 0.25 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2360ec9-d7c2-4bfc-871a-23c1f5b273e7")
+	)
+	(fp_line
+		(start 4.75 -2.55)
+		(end 0.25 -2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f9eb165-01e9-41a9-a1af-4c1b86248e28")
+	)
+	(fp_line
+		(start 4.75 -2.55)
+		(end 4.75 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e6dfc8f-39dd-421d-bf63-d1720a5fcb75")
+	)
+	(fp_line
+		(start 4.75 2.55)
+		(end 0.25 2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d4d5ca0-ca12-4614-aa49-649062eb05d3")
+	)
+	(fp_line
+		(start 4.75 2.55)
+		(end 4.75 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0818517-676c-4d49-9a38-e26cd4c6861c")
+	)
+	(fp_line
+		(start 15.85 -2.55)
+		(end 15.85 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5b2e1bf-3466-41cb-bcd2-895271c742d4")
+	)
+	(fp_line
+		(start 15.85 -2.5)
+		(end 4.75 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05fd2981-065f-460e-9222-b2b72dded0b7")
+	)
+	(fp_line
+		(start 15.85 2.5)
+		(end 4.75 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7fa0a4de-2e8b-4c9b-affa-0860642d8e16")
+	)
+	(fp_line
+		(start 15.85 2.55)
+		(end 15.85 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5800bb39-75f8-441e-88e8-30d67e199c58")
+	)
+	(fp_line
+		(start 15.85 2.55)
+		(end 20.35 2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fef45dae-4ce8-4ab8-9039-69c40bb722ae")
+	)
+	(fp_line
+		(start 20.35 -2.55)
+		(end 15.85 -2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc3a7217-9625-429a-a9f2-ceb5f9bbecef")
+	)
+	(fp_line
+		(start 20.35 -1.2)
+		(end 20.35 -2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19bdc88b-2d2c-48d8-ac59-12df9da954c4")
+	)
+	(fp_line
+		(start 20.35 1.2)
+		(end 20.35 2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a40c507-e477-4baf-a73c-ef1cec63f863")
+	)
+	(fp_line
+		(start -1.25 -2.8)
+		(end -1.25 2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "67dfb2f2-2762-4c7a-a4af-abd4953e8c67")
+	)
+	(fp_line
+		(start -1.25 -2.8)
+		(end 21.85 -2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "65ba5896-03f1-4158-8c84-5dd2ad9b2a3c")
+	)
+	(fp_line
+		(start 21.85 2.8)
+		(end -1.25 2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d7da23b0-ad41-466a-b2bf-28150b39a7f2")
+	)
+	(fp_line
+		(start 21.85 2.8)
+		(end 21.85 -2.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "850a8110-7ece-4315-8216-7cd0fd31d6d0")
+	)
+	(fp_line
+		(start 0.25 -2.55)
+		(end 4.75 -2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "001aca63-cf90-43b5-9f5d-048771ee7c3c")
+	)
+	(fp_line
+		(start 0.25 2.55)
+		(end 0.25 -2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "814dedd1-f948-423d-b7e3-171025ec7123")
+	)
+	(fp_line
+		(start 4.75 -2.55)
+		(end 4.75 2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "534a9967-0b92-4829-9172-b715c9387332")
+	)
+	(fp_line
+		(start 4.75 -2.5)
+		(end 15.85 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f20a4f0e-1537-4df9-9bbb-3892aff34c9b")
+	)
+	(fp_line
+		(start 4.75 2.55)
+		(end 0.25 2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49b79922-09aa-48e2-8373-9c74f46655d2")
+	)
+	(fp_line
+		(start 15.85 -2.55)
+		(end 15.85 2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0ea7921-5ad8-42d0-a974-9dfdc8925fa6")
+	)
+	(fp_line
+		(start 15.85 2.5)
+		(end 4.75 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "acbdd4fb-1691-464d-b709-08b6006c7b8c")
+	)
+	(fp_line
+		(start 15.85 2.55)
+		(end 20.35 2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79ddc70c-b38b-41cf-9581-1602d0f5790b")
+	)
+	(fp_line
+		(start 20.35 -2.55)
+		(end 15.85 -2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7a490aa-08ba-4bcf-8bd6-6638b52481cf")
+	)
+	(fp_line
+		(start 20.35 2.55)
+		(end 20.35 -2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2fae043f-1377-476f-be3f-215c54fc3bae")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10.3 0 180)
+		(layer "F.Fab")
+		(uuid "e5994b94-b20f-45b6-b911-496d8b046f3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "e144ddf4-4ff9-4192-9403-aa61f9e17785")
+	)
+	(pad "1" thru_hole roundrect
+		(at 5 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "a22900fc-ee07-45d7-806b-08402e586a4b")
+	)
+	(pad "2" thru_hole circle
+		(at 15.6 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "b12e74d0-a904-406c-9d8a-c60b22d7762b")
+	)
+	(pad "2" thru_hole circle
+		(at 20.6 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "27ddeca7-f84c-4ce5-bb7e-485ff8829eed")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Clip-5x20mm_Schurter_CQM_Inline_P20.60x5.00mm_D1.00mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

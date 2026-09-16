@@ -1,0 +1,369 @@
+(footprint "ROM0505S"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "ROM")
+	(tags "Power Supply")
+	(property "Reference" "REF**"
+		(at 5.57 -2.7 0)
+		(layer "F.SilkS")
+		(uuid "309db638-02b6-4da7-b385-3ca66ef6ea18")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ROM-0505S"
+		(at 5.28 -1.755 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "edf49227-dd71-40e9-930e-90002be06150")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "ROM0505S"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af76a932-3909-4cd2-bb58-9d74abfa6b3e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/ROM-0505S.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f36a00e2-0fea-4726-8cb2-60f86b158781")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "RECOM POWER - ROM-0505S - Isolated Board Mount DC/DC Converter, ITE & Medical, 1 Output, 1 W, 5 V, 200 mA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "118ca911-89f0-4b74-8d50-46460b1a0da8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "8.25"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68efdbd2-adea-4e56-b880-44b9917cdc2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "919-ROM-0505S"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b50aab03-3040-4108-88ba-6e4ce6c141b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/RECOM-Power/ROM-0505S?qs=YWgezujkI1LVWGfugHsBVg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5078542c-639a-4b5f-bf07-1a894516dd03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "RECOM Power"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c84d82c7-35e9-48dd-b1c2-3c6e400f720e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "ROM-0505S"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfe11b71-5a39-4a1d-aa76-0f86f87f82ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.9 0.5)
+		(end -0.9 0.5)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae9cb7bc-50f9-4cad-a26c-5627a5e89bee")
+	)
+	(fp_line
+		(start -0.6 0.5)
+		(end -0.6 0.5)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3184662-dff9-4086-9520-5a9b03b4c5f7")
+	)
+	(fp_line
+		(start 0 -4.78)
+		(end 11.5 -4.78)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f537713-cee9-4c8d-a614-5a7a12f98339")
+	)
+	(fp_line
+		(start 0 1.27)
+		(end 0 -4.78)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f83679e3-13fd-454c-9a98-0cb91b32e248")
+	)
+	(fp_line
+		(start 11.5 -4.78)
+		(end 11.5 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0df2952a-ca09-4b97-aaec-71d16a94a626")
+	)
+	(fp_line
+		(start 11.5 1.27)
+		(end 0 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8440808a-2608-42b8-8cea-b8373153de31")
+	)
+	(fp_arc
+		(start -0.9 0.5)
+		(mid -0.75 0.35)
+		(end -0.6 0.5)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e5aff20-9803-4847-8a28-ba1a4f9569a1")
+	)
+	(fp_arc
+		(start -0.6 0.5)
+		(mid -0.75 0.65)
+		(end -0.9 0.5)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72f4f4d3-ee05-417a-97b8-d74777c35f3c")
+	)
+	(fp_line
+		(start -1.9 -5.78)
+		(end 12.46 -5.78)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "58f2854b-1864-433f-a58d-945a93fcb59e")
+	)
+	(fp_line
+		(start -1.9 2.27)
+		(end -1.9 -5.78)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3bd0de12-3809-4d71-a192-0c6610f759b8")
+	)
+	(fp_line
+		(start 12.46 -5.78)
+		(end 12.46 2.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5ba6e71d-9e79-43c6-97c1-38017108ced2")
+	)
+	(fp_line
+		(start 12.46 2.27)
+		(end -1.9 2.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b5f5e9bf-5013-4fa8-8fd1-79a2e8d53557")
+	)
+	(fp_line
+		(start 0 -4.78)
+		(end 11.5 -4.78)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d35db9da-0993-44ef-820a-d9fba4e55db8")
+	)
+	(fp_line
+		(start 0 1.27)
+		(end 0 -4.78)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "64312a8d-c9f2-4bcd-a5ed-e7c31041c4c6")
+	)
+	(fp_line
+		(start 11.5 -4.78)
+		(end 11.5 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ce8442f2-baed-4bb2-bfc7-1d17dcb2de06")
+	)
+	(fp_line
+		(start 11.5 1.27)
+		(end 0 1.27)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4bdee5de-7230-4cb3-b1a1-f2e2a939e3ca")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.28 -1.755 0)
+		(layer "F.Fab")
+		(uuid "c21d31e8-3f5d-4062-b1fe-554b268b708e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 1.9 0)
+		(size 1.725 1.725)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "30b32bab-4fc4-415f-b7f7-559b10c4225a")
+	)
+	(pad "2" thru_hole circle
+		(at 4.44 0)
+		(size 1.725 1.725)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "760b8c9d-e2f3-4c70-a159-cdee101dae08")
+	)
+	(pad "3" thru_hole circle
+		(at 6.98 0)
+		(size 1.725 1.725)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "11817b41-346c-4015-a261-420871f15b2b")
+	)
+	(pad "4" thru_hole circle
+		(at 9.52 0)
+		(size 1.725 1.725)
+		(drill 1.15)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "4249dabc-2dae-4620-8861-cafb926aa7de")
+	)
+	(model "ROM-0505S.stp"
+		(offset
+			(xyz 5.780000123 1.749999974 0.4999999925)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

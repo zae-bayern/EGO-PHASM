@@ -1,0 +1,157 @@
+(footprint "Transformer_TV19"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Transformer, Toroid, horizontal, laying, Diameter 9mm, Amidon, T30,")
+	(tags "Transformer Toroid horizontal laying Diameter 9mm Amidon T30 ")
+	(property "Reference" "REF**"
+		(at 4.8 -8.55 -90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c9d250d7-3556-48a4-a487-430a77c2987c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TV19"
+		(at 5 -8.75 180)
+		(layer "F.Fab")
+		(uuid "195fdd89-5a63-42eb-90b7-53938a25a5ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Transformer_TV19:Transformer_TV19"
+		(at -3 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90ccdff9-4ff5-476d-b259-24c2ca9ba41f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -3 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "327bb6cb-46ab-4299-9db4-506c1be15c45")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Transformer, single primary, single secondary"
+		(at -3 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12c3fc35-d91e-4e81-a2be-9a9ffc8b96b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy -5.8 -19.6) (xy -5.8 2.1) (xy 15.8 2.1) (xy 15.8 -19.6)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7997e4b1-db0d-42da-b621-5c417b92a376")
+	)
+	(fp_rect
+		(start -5.75 -19.5)
+		(end 15.75 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f77670b2-52bb-4cff-bf40-b677d9db063c")
+	)
+	(pad "1" thru_hole circle
+		(at -3 -1.5)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "5444abeb-65c8-4845-b498-7106c2ba84d1")
+	)
+	(pad "5" thru_hole circle
+		(at 13 -1.5)
+		(size 2.5 2.5)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "43761bb3-87f6-4a05-92d5-7b316acb1a99")
+	)
+	(pad "7" thru_hole circle
+		(at 10.5 -16.5)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "704e9704-4e94-4c15-864f-230407c27625")
+	)
+	(pad "9" thru_hole circle
+		(at 0.5 -16.5)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "6eb8d494-55c1-4f35-a547-6d8e1ff465f6")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Transformer_THT.3dshapes/Transformer_Toroid_Horizontal_D9.0mm_Amidon-T30.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

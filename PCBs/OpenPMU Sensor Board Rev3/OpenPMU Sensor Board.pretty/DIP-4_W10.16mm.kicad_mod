@@ -1,0 +1,297 @@
+(footprint "DIP-4_W10.16mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "4-lead though-hole mounted DIP package, row spacing 10.16 mm (400 mils)")
+	(tags "THT DIP DIL PDIP 2.54mm 10.16mm 400mil")
+	(property "Reference" "REF**"
+		(at 5.08 -2.33 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "71d67193-f126-441c-8b15-cecd9a0f8325")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VO618A (LTV-817M Footprint)"
+		(at 5.08 4.87 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "870f1f32-4191-4e85-bdb0-3532195b944e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Package_DIP:DIP-4_W10.16mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "736caa48-723d-417f-8fcc-59854301c573")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7171ef73-d58b-4b3c-8984-6dc97ea1aeab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, DIP-4"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8af9bf80-7846-482e-bb18-62547bbe95b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.845 -1.33)
+		(end 1.845 3.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef3ab2c3-0e35-4ab4-b52d-251ed712c868")
+	)
+	(fp_line
+		(start 1.845 3.87)
+		(end 8.315 3.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2163cbd2-05b1-4a93-b416-ba24c342f937")
+	)
+	(fp_line
+		(start 4.08 -1.33)
+		(end 1.845 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d5ae3a1-e8e8-4cdf-9e88-ee867e4a03ed")
+	)
+	(fp_line
+		(start 8.315 -1.33)
+		(end 6.08 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e90ad9a7-d026-4a9a-bc84-79ebbbb566fd")
+	)
+	(fp_line
+		(start 8.315 3.87)
+		(end 8.315 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a033d90-5f68-4d64-b52d-03f53376a7da")
+	)
+	(fp_arc
+		(start 6.08 -1.33)
+		(mid 5.08 -0.33)
+		(end 4.08 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b159040-c381-4b1e-8afd-8fce2e8717f2")
+	)
+	(fp_line
+		(start -1.05 -1.55)
+		(end -1.05 4.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "81e5c346-1a2a-48f7-baf6-b74c14794922")
+	)
+	(fp_line
+		(start -1.05 4.1)
+		(end 11.25 4.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "47a1f043-6f2a-4f1b-aa83-6139c03b7d11")
+	)
+	(fp_line
+		(start 11.25 -1.55)
+		(end -1.05 -1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e488a754-197b-467f-bf8a-eecf0d434927")
+	)
+	(fp_line
+		(start 11.25 4.1)
+		(end 11.25 -1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b040907-d3b2-49cd-9c12-c7644fff7ccc")
+	)
+	(fp_line
+		(start 1.905 -0.27)
+		(end 2.905 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c18cc897-d5c8-480a-996e-98264a304114")
+	)
+	(fp_line
+		(start 1.905 3.81)
+		(end 1.905 -0.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2995cc87-d0fc-4443-80b7-3ee9ef554989")
+	)
+	(fp_line
+		(start 2.905 -1.27)
+		(end 8.255 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed049961-ff46-49c1-acc2-eed0179fd796")
+	)
+	(fp_line
+		(start 8.255 -1.27)
+		(end 8.255 3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05613c11-e041-4be5-88b3-4e03a61227f1")
+	)
+	(fp_line
+		(start 8.255 3.81)
+		(end 1.905 3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "644eac78-b894-4d7d-9a78-376d0b272839")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.08 1.27 180)
+		(layer "F.Fab")
+		(uuid "20757ddd-9e0d-4e8c-844a-13df59a7cde7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "ca619de4-6432-4a1b-9243-65939fd256c4")
+	)
+	(pad "2" thru_hole oval
+		(at 0 2.54)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "19d29700-f300-4516-9bf2-b5520ec3c5bb")
+	)
+	(pad "3" thru_hole oval
+		(at 10.16 2.54)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "344727b0-acee-4d98-9f4d-1ee1f7b39d60")
+	)
+	(pad "4" thru_hole oval
+		(at 10.16 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "a27e8141-6407-4f2f-86d8-70734d4652da")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-4_W10.16mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

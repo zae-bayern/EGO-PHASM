@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ROM-0505S
+#/302570/997627/2.50/4/4/Power Supply
+DEF ROM-0505S PS 0 30 Y Y 1 F N
+F0 "PS" 850 300 50 H V L CNN
+F1 "ROM-0505S" 850 200 50 H V L CNN
+F2 "ROM0505S" 850 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/ROM-0505S.pdf" 850 0 50 H I L CNN
+F4 "RECOM POWER - ROM-0505S - Isolated Board Mount DC/DC Converter, ITE & Medical, 1 Output, 1 W, 5 V, 200 mA" 850 -100 50 H I L CNN "Description"
+F5 "8.25" 850 -200 50 H I L CNN "Height"
+F6 "919-ROM-0505S" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/ROM-0505S?qs=YWgezujkI1LVWGfugHsBVg%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "RECOM Power" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ROM-0505S" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X -VIN 1 0 0 200 R 50 50 0 0 P
+X +VIN 2 0 -100 200 R 50 50 0 0 P
+X -VOUT 3 0 -200 200 R 50 50 0 0 P
+X +VOUT 4 0 -300 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

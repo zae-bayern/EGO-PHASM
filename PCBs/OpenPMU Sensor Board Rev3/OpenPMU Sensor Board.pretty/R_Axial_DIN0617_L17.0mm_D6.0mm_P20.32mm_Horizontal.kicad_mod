@@ -1,0 +1,280 @@
+(footprint "R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Resistor, Axial_DIN0617 series, Axial, Horizontal, pin pitch=20.32mm, 2W, length*diameter=17*6mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
+	(tags "Resistor Axial_DIN0617 series Axial Horizontal pin pitch 20.32mm 2W length 17mm diameter 6mm")
+	(property "Reference" "REF**"
+		(at 10.16 -4.12 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b1861ab7-7971-4f6b-bc3c-6abd11abdcd7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "56k"
+		(at 10.16 4.12 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6da9e54d-4ae4-41cb-8254-b2690e9465d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7156242a-c864-424d-a940-4bc407a4f594")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "560c156d-e970-46ef-836f-e719bdd1d927")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Resistor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "820cfdf5-4db7-47b3-8ca0-38afe3844808")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.44 0)
+		(end 1.54 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5105d7f4-e26f-4171-a35f-baa66ada4580")
+	)
+	(fp_line
+		(start 1.54 -3.12)
+		(end 1.54 3.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "868da6fd-12c8-4d5b-9a4d-f0db62b23268")
+	)
+	(fp_line
+		(start 1.54 3.12)
+		(end 18.78 3.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b56d543-bd45-4091-8b79-2abf92ae8462")
+	)
+	(fp_line
+		(start 18.78 -3.12)
+		(end 1.54 -3.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83e471b6-b3a8-4123-b390-6d1d49d6e250")
+	)
+	(fp_line
+		(start 18.78 3.12)
+		(end 18.78 -3.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6947c2f-3f5b-4fcc-bbd7-782583aae706")
+	)
+	(fp_line
+		(start 18.88 0)
+		(end 18.78 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cdf89c84-a1c8-45c5-add7-75630dc86e0d")
+	)
+	(fp_line
+		(start -1.45 -3.25)
+		(end -1.45 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "56ea2d93-04f5-4eaf-bcc5-95a6f0ca69be")
+	)
+	(fp_line
+		(start -1.45 3.25)
+		(end 21.77 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "620b0c3c-132e-4beb-982a-ceda83d3d675")
+	)
+	(fp_line
+		(start 21.77 -3.25)
+		(end -1.45 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ab0d052-826b-40b3-900e-8a349062a168")
+	)
+	(fp_line
+		(start 21.77 3.25)
+		(end 21.77 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "457cf35a-b103-4e5e-863a-5045fc823cd3")
+	)
+	(fp_line
+		(start 0 0)
+		(end 1.66 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f4008d3-c91b-4ed7-b6cc-070cd7fb9869")
+	)
+	(fp_line
+		(start 1.66 -3)
+		(end 1.66 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c789629-ba0f-45d7-b9e2-06d52fba29ae")
+	)
+	(fp_line
+		(start 1.66 3)
+		(end 18.66 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1148c363-bc04-4bbd-b5a9-5a65ec2e2127")
+	)
+	(fp_line
+		(start 18.66 -3)
+		(end 1.66 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "caf32645-7790-4e89-a90d-e78720017f7d")
+	)
+	(fp_line
+		(start 18.66 3)
+		(end 18.66 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a6e8d9c3-ef41-478b-b591-c36ae5b84d11")
+	)
+	(fp_line
+		(start 20.32 0)
+		(end 18.66 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f885e71-4e0f-46d4-b9ba-2b3733d39f99")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10.16 0 180)
+		(layer "F.Fab")
+		(uuid "a90566dc-4b9e-4b12-aa2f-3760e6c0fa3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "c93564a4-7b60-4d7e-82a7-530afe557e6e")
+	)
+	(pad "2" thru_hole oval
+		(at 20.32 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "d55fe439-8d5c-4a75-bba4-46b68ed358e1")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
