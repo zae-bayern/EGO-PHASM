@@ -1,1 +1,9 @@
-..
+These are the modified versions of the PCBs from OpenPMU. A brief overview of the changes:
+- The sensor part has been adapted to 230V and 16A at 50Hz.
+- The communication between sensor and measurement computer is digital now. All analog related circuitry is now on the Sensor Board only.
+- The power and communication lines between the sensor board and the sensor cape has been secured with an isolation transformer and optocouplers.
+
+The original OpenPMU project can be found here: https://www.openpmu.org/
+
+It is highly recommended that this project is constructed and operated exclusively by qualified personnel!
+This project is provided "as is" without any warranties, and the creators cannot be held liable for any direct or indirect damages.
